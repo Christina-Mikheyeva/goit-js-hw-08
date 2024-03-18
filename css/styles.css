@@ -1,0 +1,46 @@
+body {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+ul {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.gallery-item {
+    flex-basis: calc((100% - (24px*2))/3);
+}
+
+.gallery-link:hover {
+    cursor: url("/other/pointer.svg") 10 10, auto;
+}
+
+.overlay {
+    width: 100vw;
+    background-color:rgba(46, 47, 66, 0.8);
+}
+
+.modal {
+    max-width: 1112px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 28px 164px;
+}
+
+.modal-title {
+    color: maroon;
+}
+
+
