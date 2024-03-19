@@ -27,20 +27,11 @@ img {
     cursor: url("/other/pointer.svg") 10 10, auto;
 }
 
-.overlay {
-    width: 100vw;
-    background-color:rgba(46, 47, 66, 0.8);
-}
-
 .modal {
+    background-color: rgba(46, 47, 66, 0.8);
     max-width: 1112px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 28px 164px;
-}
-
-.modal-title {
-    color: maroon;
+    padding: 28px 168px;
+    pointer-events: initial;
 }
 
 

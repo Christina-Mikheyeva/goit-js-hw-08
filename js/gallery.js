@@ -98,14 +98,17 @@ function handelClick(event) {
         // Modal window
 
         const instance = basicLightbox.create(
-        `<div class = overlay>
-            <div class = modal>
+        `   <div class = modal>
             <img class="gallery-image" src = ${activeImg.original} alt = ${activeImg.description} >
-            <h2 class = modal-title>${activeImg.description} </h2>
-            </div>
-        </div>`
+            </div>`
         );
         
         instance.show()
+
+        const close = document.querySelector(".modal");
+        close.addEventListener("click", () => {
+        instance.close();
+        });
+
     }
 }
