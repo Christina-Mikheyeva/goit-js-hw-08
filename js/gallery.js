@@ -65,7 +65,8 @@ const images = [
     description: 'Lighthouse Coast Sea',
   },
 ];
-
+const test = document.querySelector('script[src=""https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"]').src
+console.log(test);
 // Gallery
 
 const gallery = document.querySelector(".gallery")
