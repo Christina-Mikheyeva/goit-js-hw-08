@@ -24,14 +24,13 @@ img {
 }
 
 .gallery-link:hover {
-    cursor: url("/other/pointer.svg") 10 10, auto;
+    cursor: url("/pointer.svg") 10 10, auto;
 }
 
 .modal {
     background-color: rgba(46, 47, 66, 0.8);
     max-width: 1112px;
     padding: 28px 168px;
-    pointer-events: initial;
 }
 
 
