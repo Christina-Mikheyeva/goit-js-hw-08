@@ -100,6 +100,7 @@ function handelClick(event) {
         const instance = basicLightbox.create(
         `   <div class = modal>
             <img class="gallery-image" src = ${activeImg.original} alt = ${activeImg.description} >
+            <h2 class= modal-title>${activeImg.description} </h2>
             </div>`
         );
         
